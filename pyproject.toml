@@ -7,7 +7,7 @@ name = "amazon-invoice-downloader"
 dynamic = ["version"]
 description = 'Logs into an Amazon.com account and downloads invoices as PDF'
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 license = "MIT"
 keywords = ["amazon", "invoice", "statements", "download", "pdf"]
 authors = [
