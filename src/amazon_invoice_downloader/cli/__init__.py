@@ -239,7 +239,7 @@ def run(playwright, args):
                 break
 
             # Order Loop
-            order_cards = page.query_selector_all(".order-card.js-order-card")
+            order_cards = page.query_selector_all("div.order, div.yohtmlc-order")
             for order_card in order_cards:
                 # Parse the order card to create the date and file_name
                 spans = order_card.query_selector_all("span")
