@@ -167,7 +167,7 @@ def run(playwright, args):
     Stealth().apply_stealth_sync(page)
 
     # Wait for page to fully load
-    page.goto("https://amazon.com/")
+    page.goto("https://amazon.es/")
     page.wait_for_load_state("domcontentloaded")
 
     # Check if we're on the less fully featured page
